@@ -1,0 +1,78 @@
+/* App container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Section headings */
+h2 {
+  color: #555;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"],
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Button */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* List items */
+li {
+  margin-bottom: 5px;
+}
+
+/* Notification */
+.toast-success {
+  background-color: #28a745;
+}
+
+.toast-error {
+  background-color: #dc3545;
+}
+
+/* BMI status */
+.bmi-status {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Chart */
+.chart-container {
+  margin-top: 20px;
+  height: 300px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+}
